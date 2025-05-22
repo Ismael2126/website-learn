@@ -26,6 +26,7 @@ p{
     font-size: 20px;
     background-color: #2a2a40;;
     padding: 12px;
+    margin-bottom: 0;
 }
 .Experiance{
     width: 295px;
@@ -48,11 +49,12 @@ font-family: "system-ui";
 font-size: 14px;
 color: rgb(255, 255, 255);
 padding: 10px 30px;
-transition: 2s;
+transition: 0.80s;
 width: 335px;
 box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
 border-radius: 42px 7px 50px 50px;
 background: linear-gradient(90deg, rgb(0, 102, 204) 0%, rgb(197, 0, 204) 100%);
+
 }
 
 .btn:hover{
@@ -63,3 +65,4 @@ border-color: rgb(204, 0, 105);
 border-width: 2px;
 border-style: solid;
 }
+ 
