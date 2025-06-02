@@ -10,24 +10,48 @@
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <ul class="nav justify-content-center">
-      <li class="nav-item">
-        <a class="nav-link active" aria-current="page" href="#">Active</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Link</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Link</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"
-          >Disabled</a
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+      <div class="container">
+        <a href="#" class="navbar-brand">azwaizva.uk</a>
+        <button
+          class="navbar-toggler"
+          data-bs-toggle="collapse"
+          data-bs-target="#nav"
+          aria-controls="nav"
+          aria-label="expand navigation"
         >
-      </li>
-    </ul>
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="nav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a href="#" class="nav-link active" aria-current="page">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Portal</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">About us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="accordion" id="accordionExample">
+      <div class="accordion-item">
+        <h2 class="accordion-header"</h2>
+        <div class="container">
+            <div class="row">
+    <div class="col-10 border border-dark p-3"> Welcome to my website!</div>
+    <div class="col-4 border border-dark p-3">Welcome to our little corner of the web! I'm Ismael, a proud father of two amazing daughters — Azwa and Izva. This site is built with love and creativity, inspired by their curiosity and joy. We hope you enjoy exploring it as much as we enjoyed creating it.</div>
+    <div class="col-6 border border-dark ">This website is a reflection of my journey and the beautiful memories I create each day with my daughters, Azwa and Izva. Whether it's a quiet evening coding or a weekend filled with laughter and play, every moment inspires something new here. Thank you for visiting!</div>
+  </div>
+        </div>
+
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
