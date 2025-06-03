@@ -1,0 +1,20 @@
+{
+  "name": "website-learn",
+  "version": "1.0.0",
+  "description": "website learning",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ismael2126/website-learn.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ismael2126/website-learn/issues"
+  },
+  "homepage": "https://github.com/Ismael2126/website-learn#readme"
+}
